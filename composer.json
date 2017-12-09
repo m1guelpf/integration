@@ -1,0 +1,57 @@
+{
+    "name": "m1guelpf/integration",
+    "description": "A PHP class to interact with GitHub Apps",
+    "keywords": [
+        "m1guelpf",
+        "github",
+        "integration"
+    ],
+    "homepage": "https://github.com/m1guelpf/integration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "homepage": "https://miguelpiedrafita.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "5.5.*",
+        "knplabs/github-api": "^2.6",
+        "lcobucci/jwt": "^3.2",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "M1guelpf\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "M1guelpf\\Integration\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "M1guelpf\\Integration\\IntegrationServiceProvider"
+            ],
+            "aliases": {
+                "Integration": "M1guelpf\\Integration\\IntegrationFacade"
+            }
+        }
+    }
+}
