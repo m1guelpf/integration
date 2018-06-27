@@ -3,9 +3,9 @@
 namespace M1guelpf;
 
 use Github\Client as GitHub;
+use Illuminate\Support\Traits\Macroable;
 use M1guelpf\Integration\CreatesJwtTokens;
 use M1guelpf\Integration\AuthenticatesApplications;
-use Illuminate\Support\Traits\Macroable;
 
 class Integration
 {
@@ -31,7 +31,7 @@ class Integration
     public function __construct(GitHub $client = null)
     {
         $this->github = $client ?? new GitHub(null, 'machine-man-preview');
-        static::$jwt  = $this->createToken();
+        static::$jwt = $this->createToken();
     }
 
     /**
