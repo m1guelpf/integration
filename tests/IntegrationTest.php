@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Open Source
+ */
+
 namespace M1guelpf\Integration\Test;
 
 use Mockery;

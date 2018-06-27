@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Open Source
+ */
+
 namespace M1guelpf;
 
 use Github\Client as GitHub;

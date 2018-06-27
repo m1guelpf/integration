@@ -1,13 +1,7 @@
 <?php
 
 /*
- * This file is part of UnMarkDocs.
- *
- * Copyright (c) Miguel Piedrafita - All Rights Reserved
- *
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Written by Miguel Piedrafita <soy@miguelpiedrafita.com>
+ * Open Source
  */
 
 namespace M1guelpf\Integration;
