@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Written by Miguel Piedrafita <soy@miguelpiedrafita.com>
+ */
+
 namespace M1guelpf\Integration\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;

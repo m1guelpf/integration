@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Written by Miguel Piedrafita <soy@miguelpiedrafita.com>
+ */
+
 namespace M1guelpf;
 
 use Github\Client as GitHub;

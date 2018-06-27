@@ -1,5 +1,9 @@
 <?php
 
+/*
+ * Written by Miguel Piedrafita <soy@miguelpiedrafita.com>
+ */
+
 namespace M1guelpf\Integration;
 
 use Illuminate\Support\ServiceProvider;
