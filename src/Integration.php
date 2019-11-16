@@ -8,8 +8,8 @@ namespace M1guelpf;
 
 use Github\Client as GitHub;
 use Illuminate\Support\Traits\Macroable;
-use M1guelpf\Integration\CreatesJwtTokens;
 use M1guelpf\Integration\AuthenticatesApplications;
+use M1guelpf\Integration\CreatesJwtTokens;
 
 class Integration
 {

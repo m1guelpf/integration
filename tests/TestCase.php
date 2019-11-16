@@ -6,8 +6,8 @@
 
 namespace M1guelpf\Integration\Test;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use M1guelpf\Integration\IntegrationServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

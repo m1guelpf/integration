@@ -6,9 +6,9 @@
 
 namespace M1guelpf\Integration;
 
-use Lcobucci\JWT\Token;
 use Lcobucci\JWT\Builder as JWT;
 use Lcobucci\JWT\Signer\Rsa\Sha256;
+use Lcobucci\JWT\Token;
 
 trait CreatesJwtTokens
 {

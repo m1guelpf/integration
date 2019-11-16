@@ -6,10 +6,10 @@
 
 namespace M1guelpf\Integration\Test;
 
-use Mockery;
-use M1guelpf\Integration;
 use Github\Client as GitHub;
+use M1guelpf\Integration;
 use M1guelpf\Integration\IntegrationFacade;
+use Mockery;
 
 class IntegrationTest extends TestCase
 {
